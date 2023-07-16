@@ -159,7 +159,7 @@ query = "select * from employee order by dept "
 
 #descending order
 """
-query = "select * from employee order by dept "
+query = "select * from employee order by dept desc "
 """
 curobj.execute(query)
 
